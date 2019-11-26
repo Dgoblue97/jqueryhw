@@ -6,14 +6,13 @@ $(document).ready(function(){
   if (name == 0){
     $('#nameerrormsg').css('display', 'block');
     event.preventDefault();
-    validInput = false
+    validInput = false;
   }
   else {
     $('#nameerrormsg').css('display', 'none');
     }
     if (address == 0){
       $('#addrerrormsg').css('display', 'block');
-      event.preventDefault();
       validInput = false
     }
     else {
